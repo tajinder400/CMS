@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppointmentManager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_daily">DailyActivity</string>
+    <string name="title_activity_appointment">AppointmentActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_patient">PatientActivity</string>
+    <string name="title_activity_add_patient">AddPatientActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_add_appointment">AddAppointmentActivity</string>
+
+</resources>

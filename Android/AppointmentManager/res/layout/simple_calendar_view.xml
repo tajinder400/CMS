@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <SearchView
+        android:id="@+id/searchView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_blue_background" >
+    </SearchView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/prevMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/left_cal_button" >
+        </ImageView>
+
+        <Button
+            android:id="@+id/currentMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:background="@drawable/button_blue_background"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" >
+        </Button>
+
+        <ImageView
+            android:id="@+id/nextMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right_cal_button" >
+        </ImageView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blue_bg_with_text" >
+    </ImageView>
+
+    <GridView
+        android:id="@+id/calendar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="-1px"
+        android:numColumns="7"
+        android:verticalSpacing="-1px" >
+    </GridView>
+
+</LinearLayout>
